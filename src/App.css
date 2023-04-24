@@ -42,7 +42,7 @@ a {
 }
 
 .section__margin {
-  padding: 4rem 6rem;
+  margin: 4rem 6rem;
 }
 
 /* Animation */
@@ -77,7 +77,7 @@ a {
     padding: 4rem;
   }
   .section__margin {
-    padding: 4rem;
+    margin: 4rem;
   }
 } 
 
@@ -87,6 +87,13 @@ a {
     padding: 4rem 2rem;
   }
   .section__margin {
-    padding: 4rem 2rem;
+    margin: 4rem 2rem;
   }
 } 
+
+/* Very Small size devices */
+@media only screen and (max-width: 374px) {
+  .section__margin {
+    margin: 2rem 0;
+  }
+}
