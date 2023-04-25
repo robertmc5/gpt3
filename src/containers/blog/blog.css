@@ -16,6 +16,7 @@
 .gpt3__blog-container {
   display: flex;
   flex-direction: row;
+  margin-bottom: 3.5rem;
 }
 
 .gpt3__blog-container_groupA {
@@ -36,6 +37,7 @@
 @media only screen and (max-width: 1050px) {
   .gpt3__blog-container {
     flex-direction: column-reverse;
+    margin-bottom: 0;
   }
   .gpt3__blog-container_groupA {
     margin: 2rem 0;
